@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{365793cd-c7e3-4530-a018-d209dc013cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Resources">
+      <UniqueIdentifier>{eda4575a-6c17-42b3-adfc-4d83b02b754b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Log">
+      <UniqueIdentifier>{dd2c4138-30f2-42e9-811e-1b443647d97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Generic">
+      <UniqueIdentifier>{aa8953ac-1aa7-494a-b948-7d2b69e14f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\CDB">
+      <UniqueIdentifier>{8df4248f-84f9-41c4-bf98-539a31aa7420}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_d3d_extensions.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="tga.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrSyncronize.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrThread.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Kernel\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_log.h">
+      <Filter>Kernel\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="std_classes.h">
+      <Filter>Kernel\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_intersect.h">
+      <Filter>Kernel\CDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base_lighting.h" />
+    <ClInclude Include="build_texture.h" />
+    <ClInclude Include="communicate.h" />
+    <ClInclude Include="DetailFormat.h" />
+    <ClInclude Include="ETextureParams.h" />
+    <ClInclude Include="global_calculation_data.h" />
+    <ClInclude Include="global_slots_data.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="LightThread.h" />
+    <ClInclude Include="R_light.h" />
+    <ClInclude Include="recalculation.h" />
+    <ClInclude Include="..\Shader_xrLC.h" />
+    <ClInclude Include="xrHemisphere.h" />
+    <ClInclude Include="xrLevel.h" />
+    <ClInclude Include="xrShaderTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="tga.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrThread.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_log.cpp">
+      <Filter>Kernel\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="base_lighting.cpp" />
+    <ClCompile Include="compiler.cpp" />
+    <ClCompile Include="global_calculation_data.cpp" />
+    <ClCompile Include="global_slots_data.cpp" />
+    <ClCompile Include="LightThread.cpp" />
+    <ClCompile Include="recalculation.cpp" />
+    <ClCompile Include="xrDO_Light.cpp" />
+    <ClCompile Include="..\..\xrEngine\xrLoadSurface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Kernel\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

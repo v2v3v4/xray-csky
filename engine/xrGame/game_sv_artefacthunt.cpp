@@ -415,7 +415,7 @@ void	game_sv_ArtefactHunt::SetRP					(CSE_Abstract* E, RPoint* pRP)
 	}
 }
 
-struct RemoveBlockedRPointPredicate : public std::unary_function<RPoint*, bool>
+struct RemoveBlockedRPointPredicate
 {
 	bool operator () (RPoint* rp) const
 	{
@@ -449,23 +449,6 @@ void	game_sv_ArtefactHunt::CheckRPUnblock			()
 		),
 		rpointsBlocked.end()
 	);
-	/*for (u32 b=0; b<rpointsBlocked.size(); )
-	{
-		RPoint* pRP = rpointsBlocked[b];
-		if (!pRP->bBlocked || pRP->BlockTime+1000 < Level().timeServer())
-		{
-			pRP->bBlocked			= false;
-			rpointsBlocked.erase	(rpointsBlocked.begin()+b);
-			continue;
-		};
-		CObject* pPlayer = Level().Objects.net_Find(pRP->BlockedByID);
-		if (!pPlayer || pRP->P.distance_to(pPlayer->Position())<=0.4f)
-		{
-			pRP->bBlocked = false;
-			continue;
-		};
-		b++;
-	}*/
 };
 
 u32		game_sv_ArtefactHunt::RP_2_Use				(CSE_Abstract* E)

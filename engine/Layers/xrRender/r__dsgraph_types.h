@@ -34,7 +34,7 @@
 								char*					__charalloc		(size_type n)							{	return (char*)allocate(n); }
 								void					deallocate		(pointer p, size_type n) const			{	dlfree	(p);				}
 								void					deallocate		(void* p, size_type n) const			{	dlfree	(p);				}
-								void					construct		(pointer p, const T& _Val)				{	p = new T(_Val); }
+								void					construct		(pointer p, const T& _Val)				{	new (p) T(_Val); }
 								void					destroy			(pointer p)								{	p->~T(); }
 								size_type				max_size		() const								{	size_type _Count = (size_type)(-1) / sizeof (T);	return (0 < _Count ? _Count : 1);	}
 	};

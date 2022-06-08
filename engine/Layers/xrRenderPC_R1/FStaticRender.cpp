@@ -273,15 +273,19 @@ void					CRender::apply_object			(IRenderable*		O )
 {
 	if (0==O)			return	;
 	if (PHASE_NORMAL==phase	&& O->renderable_ROS())		{
-		CROS_impl& LT		= *((CROS_impl*)O->renderable.pROS);
+		CROS_impl* LT		= dynamic_cast<CROS_impl*>(O->renderable.pROS);
+
+		if (!LT)
+			return;
+
 		VERIFY(dynamic_cast<CObject*>(O)||dynamic_cast<CPS_Instance*>(O));
 		VERIFY(dynamic_cast<CROS_impl*>(O->renderable.pROS));
-		float o_hemi		= 0.5f*LT.get_hemi						();
-		float o_sun			= 0.5f*LT.get_sun						();
+		float o_hemi		= 0.5f*LT->get_hemi						();
+		float o_sun			= 0.5f*LT->get_sun						();
 		RCache.set_c		(c_ldynamic_props,o_sun,o_sun,o_sun,o_hemi);
 		// shadowing
-		if ((LT.shadow_recv_frame==Device.dwFrame) && O->renderable_ShadowReceive())	
-			RImplementation.L_Projector->setup	(LT.shadow_recv_slot);
+		if ((LT->shadow_recv_frame==Device.dwFrame) && O->renderable_ShadowReceive())	
+			RImplementation.L_Projector->setup	(LT->shadow_recv_slot);
 	}
 }
 

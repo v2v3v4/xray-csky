@@ -21,6 +21,12 @@
 
 using namespace ObjectHandlerSpace;
 
+CObjectHandlerPlanner::_condition_type CObjectHandlerPlanner::uid(const u32 id0, const u32 id1) const
+{
+	VERIFY(!((id0 << 16) & id1));
+	return				((id0 << 16) | id1);
+}
+
 IC	ObjectHandlerSpace::EWorldProperties CObjectHandlerPlanner::object_property(MonsterSpace::EObjectAction object_action) const
 {
 	switch (object_action) {

@@ -43,15 +43,15 @@
     <_ProjectFileVersion>17.0.32505.173</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
-    <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\libraries\</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Configuration)\temporary\$(ProjectName)\</IntDir>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
-    <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\libraries\</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Configuration)\temporary\$(ProjectName)\</IntDir>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />

@@ -130,32 +130,32 @@
     <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
-    <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\libraries\</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Configuration)\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
     <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
-    <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\libraries\</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Configuration)\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
     <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_SSE|Win32'">
-    <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
-    <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\libraries\</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Configuration)\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_SSE|x64'">
     <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
     <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_SSE2|Win32'">
-    <OutDir>$(SolutionDir)..\build\libraries\</OutDir>
-    <IntDir>$(SolutionDir)..\build\temporary\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\build\$(Configuration)\libraries\</OutDir>
+    <IntDir>$(SolutionDir)..\build\$(Configuration)\temporary\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_SSE2|x64'">
     <OutDir>$(SolutionDir)..\build\libraries\</OutDir>

@@ -12,7 +12,7 @@
 #include "ai_space.h"
 #include "script_engine.h"
 
-IC	CGameObject &CScriptGameObject::object	() const
+CGameObject &CScriptGameObject::object	() const
 {
 #ifdef DEBUG
 	__try {

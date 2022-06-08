@@ -3,12 +3,10 @@
 
 #include "ximacfg.h"
 
-#if defined(_AFXDLL)||defined(_USRDLL)
+#if defined(_AFXDLL)
  #define DLL_EXP __declspec(dllexport)
-#elif defined(_MSC_VER)&&(_MSC_VER<1200)
- #define DLL_EXP __declspec(dllimport)
 #else
- #define DLL_EXP
+#define DLL_EXP __declspec(dllimport)
 #endif
 
 

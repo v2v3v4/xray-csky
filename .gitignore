@@ -1,8 +1,8 @@
+build/
+engine/.vs/
 
 *.tlog
 *.vsidx
-
-engine/.vs/
 *.bak
 *.user
 *.htm

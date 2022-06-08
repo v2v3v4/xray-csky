@@ -10,26 +10,28 @@
 #endif
 
 #include <ddraw.h>
+
+#define CXIMAGE_AS_SHARED_LIBRARY
 #include "../3rd party/cximage/cximage/ximage.h"
 #include "../3rd party/cximage/cximage/xmemfile.h"
 
 #pragma comment(lib,"cximage.lib")
 #pragma comment(lib,"jpeg.lib")
 
-void*	cxalloc(size_t size)
-{
-	return xr_malloc(size);
-}
-
-void	cxfree(void* ptr)
-{
-	xr_free(ptr);
-}
-
-void*	cxrealloc(void* ptr, size_t size)
-{
-	return xr_realloc(ptr, size);
-}
+//void*	cxalloc(size_t size)
+//{
+//	return xr_malloc(size);
+//}
+//
+//void	cxfree(void* ptr)
+//{
+//	xr_free(ptr);
+//}
+//
+//void*	cxrealloc(void* ptr, size_t size)
+//{
+//	return xr_realloc(ptr, size);
+//}
 /*
 void jpeg_encode_callback(long progress)
 {

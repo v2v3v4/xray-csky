@@ -160,7 +160,7 @@ public:
 	IC		bool					non_script_need_update	() const;
 
 private:
-	IC		bool 					script_callback			() const;
+			bool 					script_callback			() const;
 	IC		bool					need_update				() const;
 	IC		void 					update_tracks			();
 

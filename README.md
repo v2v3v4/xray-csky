@@ -9,3 +9,4 @@ Vanilla S.T.A.L.K.E.R. Clear Sky Engine:
 
 Problems:
 * HWCaps: disabled detecting AMD GPU count. X-Ray used old ATI library. Need implement by AMD Crossfire detect system. 
+* BuildSystem: The build path settings do not take configuration into account. I was too lazy.

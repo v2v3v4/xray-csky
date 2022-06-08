@@ -7,10 +7,10 @@
 ////////////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"
+#include "script_game_object.h"
 #include "stalker_search_planner.h"
 #include "ai/stalker/ai_stalker.h"
 #include "stalker_decision_space.h"
-#include "script_game_object.h"
 #include "agent_manager.h"
 #include "agent_member_manager.h"
 #include "stalker_property_evaluators.h"

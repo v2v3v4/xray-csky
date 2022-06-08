@@ -9,10 +9,6 @@
 #define MMNOMIXER
 #define MMNOJOY
 #include <mmsystem.h>
-// d3dx9.h
-#include <d3dx9.h>
-#pragma warning(default:4995)
-
 #include "x_ray.h"
 #include "render.h"
 
@@ -27,8 +23,6 @@
 
 #include "xrSash.h"
 #include "igame_persistent.h"
-
-#pragma comment( lib, "d3dx9.lib"		)
 
 ENGINE_API CRenderDevice Device;
 ENGINE_API BOOL g_bRendering = FALSE; 
@@ -280,9 +274,8 @@ void CRenderDevice::on_idle		()
 	// Matrices
 	mFullTransform.mul			( mProject,mView	);
 	m_pRender->SetCacheXform(mView, mProject);
-	//RCache.set_xform_view		( mView				);
-	//RCache.set_xform_project	( mProject			);
-	D3DXMatrixInverse			( (D3DXMATRIX*)&mInvFullTransform, 0, (D3DXMATRIX*)&mFullTransform);
+	mInvFullTransform.invert(mFullTransform);
+	//D3DXMatrixInverse			( (D3DXMATRIX*)&mInvFullTransform, 0, (D3DXMATRIX*)&mFullTransform);
 
 	// *** Resume threads
 	// Capture end point - thread must run only ONE cycle

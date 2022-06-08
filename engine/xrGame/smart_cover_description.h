@@ -22,10 +22,7 @@ namespace transitions {
 	class action;
 }
 
-class description : 
-	private debug::make_final<description>, 
-	private boost::noncopyable, 
-	public  detail::intrusive_base_time
+class description : public detail::intrusive_base_time
 {
 public:
 	typedef xr_vector<loophole*>	Loopholes;
@@ -44,6 +41,9 @@ private:
 	shared_str						m_table_id;
 
 public:
+	description(const description& other) = delete;
+	description& operator=(const description& other) = delete;
+
 									description			(shared_str const &table_id);
 									~description		();
 	IC		shared_str const		&table_id			() const;

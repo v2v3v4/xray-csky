@@ -28,7 +28,6 @@ struct loophole_data {
 
 class cover : 
 	public  CCoverPoint,
-	private debug::make_final<cover>, 
 	private boost::noncopyable 
 {
 public:

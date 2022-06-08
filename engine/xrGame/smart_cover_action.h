@@ -18,7 +18,6 @@
 namespace smart_cover{
 
 class action :
-	private debug::make_final<action>,
 	private boost::noncopyable
 {
 private:

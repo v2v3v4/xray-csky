@@ -25,8 +25,7 @@ class action_base;
 class wait_after_exit;
 
 class animation_selector : 
-	private boost::noncopyable,
-	private debug::make_final<animation_selector>
+	private boost::noncopyable
 {
 private:
 	CPropertyStorage		*m_storage;

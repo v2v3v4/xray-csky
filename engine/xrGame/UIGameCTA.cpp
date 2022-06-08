@@ -575,45 +575,16 @@ void CUIGameCTA::SetPlayerItemsToBuyMenu()
 			max_addammo_count * 2
 		);
 		TryToDefuseAllWeapons(add_ammo);
-		
-		std::for_each(
-			actor->inventory().m_slots.begin(),
-			actor->inventory().m_slots.end(),
-			std::bind1st(
-				std::mem_fun<void, CUIGameCTA, CInventorySlot const &>(
-					&CUIGameCTA::BuyMenuItemInserter
-				),
-				this
-			)
-		);
-		std::for_each(
-			actor->inventory().m_belt.begin(),
-			actor->inventory().m_belt.end(),
-			std::bind1st(
-				std::mem_fun<void, CUIGameCTA, PIItem const &>(
-					&CUIGameCTA::BuyMenuItemInserter
-				),
-				this
-			)
-		);
-		std::for_each(
-			actor->inventory().m_ruck.begin(),
-			actor->inventory().m_ruck.end(),
-			std::bind1st(
-				std::mem_fun<void, CUIGameCTA, PIItem const &>(
-					&CUIGameCTA::BuyMenuItemInserter
-				),
-				this
-			)
-		);
-		std::for_each(add_ammo.begin(), add_ammo.end(),
-			std::bind1st(
-				std::mem_fun<void, CUIGameCTA, aditional_ammo_t::value_type const &>(
-					&CUIGameCTA::AdditionalAmmoInserter
-				), 
-				this
-			)
-		);
+
+		auto& inventory = actor->inventory();
+		for (auto& item : inventory.m_slots)
+			BuyMenuItemInserter(item);
+		for (auto& item : actor->inventory().m_belt)
+			BuyMenuItemInserter(item);
+		for (auto& item : actor->inventory().m_ruck)
+			BuyMenuItemInserter(item);
+		for (auto& ammo_item : add_ammo)
+			AdditionalAmmoInserter(ammo_item);
 	} else
 	{
 		SetPlayerDefItemsToBuyMenu();

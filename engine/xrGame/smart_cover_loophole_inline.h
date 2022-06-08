@@ -40,11 +40,10 @@ IC	Fvector	const &loophole::enter_direction		() const
 	return		(m_enter_direction);
 }
 
-IC	loophole::ActionList const &loophole::actions	() const
+IC	loophole::ActionList const& loophole::actions() const
 {
 	return		(m_actions);
 }
-
 IC	bool const &loophole::enterable					() const
 {
 	return		(m_enterable);

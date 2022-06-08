@@ -1,2 +1,8 @@
 
 *.tlog
+*.vsidx
+
+engine/.vs/
+*.bak
+*.user
+*.htm

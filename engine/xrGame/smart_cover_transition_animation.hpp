@@ -7,7 +7,7 @@
 
 #ifndef SMART_COVER_TRANSITION_ANIMATION_HPP_INCLUDED
 #define SMART_COVER_TRANSITION_ANIMATION_HPP_INCLUDED
-
+#include <boost/noncopyable.hpp>
 #include "debug_make_final.hpp"
 #include "ai_monster_space.h"
 
@@ -15,8 +15,7 @@ namespace smart_cover {
 
 namespace transitions {
 
-class animation_action :
-	private debug::make_final<animation_action>,
+class animation_action:
 	private boost::noncopyable 
 {
 private:

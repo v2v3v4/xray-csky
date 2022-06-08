@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "dxerr9.h"
+//#include "dxerr9.h"
 #include "NET_Common.h"
 #include "net_server.h"
 #include <functional>
@@ -359,7 +359,7 @@ if(!psNET_direct_connect)
 	//---------------------------	
 	if (CoCreateInstanceRes != S_OK)
 	{
-		DXTRACE_ERR(tmp, CoCreateInstanceRes );
+	//	DXTRACE_ERR(tmp, CoCreateInstanceRes );
 		CHK_DX(CoCreateInstanceRes );
 	}	
 	//---------------------------

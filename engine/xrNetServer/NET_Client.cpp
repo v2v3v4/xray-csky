@@ -5,11 +5,10 @@
 #include "net_messages.h"
 #include "NET_Log.h"
 #include "../xrGame/battleye.h"
-
+#define DXTRACE_ERR
 #pragma warning(push)
 #pragma warning(disable:4995)
 #include <malloc.h>
-#include "dxerr9.h"
 
 //#pragma warning(pop)
 

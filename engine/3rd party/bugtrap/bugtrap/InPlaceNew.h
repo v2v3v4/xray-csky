@@ -14,7 +14,7 @@
 
 #pragma once
 
-#ifndef _NEW_
+#if 0
 
 /**
  * @brief In-place "new" operator.

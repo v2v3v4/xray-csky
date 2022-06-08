@@ -10,10 +10,7 @@
 
 #include "script_abstract_action.h"
 #include "script_export_space.h"
-
-namespace SightManager {
-	enum ESightType;
-};
+#include "sight_manager_space.h"
 
 class CScriptGameObject;
 

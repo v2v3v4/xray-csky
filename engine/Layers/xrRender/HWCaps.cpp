@@ -71,8 +71,9 @@ u32 GetNVGpuNum()
 
 u32 GetATIGpuNum()
 {
-	int iGpuNum = AtiMultiGPUAdapters();
-	//int iGpuNum = 1;
+#pragma todo(FX to all: ati lib need rebuild or replace AMD Crossfire)
+	//int iGpuNum = AtiMultiGPUAdapters();
+	int iGpuNum = 1;
 
 	if (iGpuNum>1)
 	{

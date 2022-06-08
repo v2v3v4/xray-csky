@@ -1,7 +1,5 @@
-#ifndef xrMemoryH
-#define xrMemoryH
 #pragma once
-
+#include <typeinfo>
 #include "memory_monitor.h"
 
 #ifdef USE_MEMORY_MONITOR
@@ -96,10 +94,9 @@ extern XRCORE_API	xrMemory	Memory;
 
 // generic "C"-like allocations/deallocations
 #ifdef DEBUG_MEMORY_NAME
-	#include "typeinfo.h"
 
 	template <class T>
-	IC T*		xr_alloc	(u32 count)				{	return  (T*)Memory.mem_alloc(count*sizeof(T),typeid(T).name());	}
+	IC T*		xr_alloc	(u32 count)				{	return  (T*)Memory.mem_alloc(count*sizeof(T), typeid(T).name()); }
 	template <class T>
 	IC void		xr_free		(T* &P)					{	if (P) { Memory.mem_free((void*)P); P=NULL;	};	}
 	IC void*	xr_malloc	(size_t size)			{	return	Memory.mem_alloc(size,"xr_malloc");				}
@@ -143,5 +140,3 @@ extern		BOOL		mem_initialized;
 XRCORE_API void vminfo			(size_t *_free, size_t *reserved, size_t *committed);
 XRCORE_API void log_vminfo		();
 XRCORE_API u32	mem_usage_impl	(HANDLE heap_handle, u32* pBlocksUsed, u32* pBlocksFree);
-
-#endif // xrMemoryH

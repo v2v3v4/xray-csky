@@ -4,9 +4,7 @@
 //	Author		: Alexander Dudin
 //	Description : Loophole class for smart cover
 ////////////////////////////////////////////////////////////////////////////
-
-#ifndef SMART_COVER_LOOPHOLE_H_INCLUDED
-#define SMART_COVER_LOOPHOLE_H_INCLUDED
+#pragma once
 
 #include <boost/noncopyable.hpp>
 #include "smart_cover_detail.h"
@@ -17,21 +15,21 @@
 
 namespace smart_cover {
 
-class object;
+//class object;
 
 class loophole : 
-	private debug::make_final<loophole>, 
 	private boost::noncopyable 
 {
 private:
-	class action_predicate {
+	class action_predicate 
+	{
 
 	public:
 		IC	bool	operator()	(shared_str const &lhs, shared_str const &rhs) const
 		{
 			return			(lhs._get() < rhs._get());
 		}
-};
+	};
 public:
 	typedef associative_vector<shared_str, action*, action_predicate>	ActionList;
 	typedef xr_vector<shared_str>										TransitionData;
@@ -84,5 +82,3 @@ private:
 } // namespace smart_cover
 
 #include "smart_cover_loophole_inline.h"
-
-#endif // SMART_COVER_LOOPHOLE_H_INCLUDED

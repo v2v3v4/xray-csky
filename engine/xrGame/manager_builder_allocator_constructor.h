@@ -25,8 +25,8 @@ struct CManagerBuilderAllocatorConstructor {
 		template <typename T> class _vertex = CEmptyClassTemplate,
 		template <typename T1, typename T2> class _index_vertex = CEmptyClassTemplate2
 	>
-	class CDataStorage : 
-		public _manager::CDataStorage<
+	class CDataStorage :
+		public _manager::template CDataStorage <
 			_vertex,
 			_index_vertex,
 			_builder_allocator_constructor<
@@ -36,7 +36,7 @@ struct CManagerBuilderAllocatorConstructor {
 		>
 	{
 	public:
-		typedef typename _manager::CDataStorage<
+		typedef typename _manager::template CDataStorage <
 			_vertex,
 			_index_vertex,
 			_builder_allocator_constructor<

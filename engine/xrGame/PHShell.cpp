@@ -1202,7 +1202,7 @@ void CPHShell::SetCallbacks( )
 	};
 	std::for_each( elements.begin(), elements.end(), set_bone_callback() );
 
-	struct set_bone_reference: private boost::noncopyable
+	struct set_bone_reference
 	{
 		IKinematics &K;
 		set_bone_reference( IKinematics &K_ ): K( K_ ){}
@@ -1217,7 +1217,7 @@ void CPHShell::SetCallbacks( )
 			}
 		}
 	};
-	for_each_bone_id( *PKinematics(), set_bone_reference( *PKinematics() ) );
+	for_each_bone_id(*PKinematics(), set_bone_reference(*PKinematics()));
 	
 	//element_position_in_set_calbacks=u16(-1);
 	

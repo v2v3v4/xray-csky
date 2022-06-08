@@ -1762,9 +1762,10 @@ void game_sv_Deathmatch::OnDetach(u16 eid_who, u16 eid_what)
 		if (EventPack.B.count > 2)	
 			u_EventSend						(EventPack);
 
-		std::for_each(to_reject.begin(), to_reject.end(),
-			std::bind1st(std::mem_fun<void,	game_sv_mp, CSE_Abstract*>(
-			&game_sv_mp::RejectGameItem), this));
+		for (CSE_Abstract* pAbstract : to_reject)
+		{
+			RejectGameItem(pAbstract);
+		}
 	};
 }
 

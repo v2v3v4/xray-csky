@@ -1,0 +1,1 @@
+D:\xrBase\SDK\sources\libogg-1.1.4\win32\VS2017\x64\Release_SSE2\libogg_static.lib

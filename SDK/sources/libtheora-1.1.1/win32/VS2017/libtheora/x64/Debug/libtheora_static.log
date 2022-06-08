@@ -1,0 +1,68 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  x86state.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  x86enc.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mmxstate.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mmxidct.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mmxfrag.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mmxfdct.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mmxencfrag.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  tokenize.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  state.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  rate.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mcenc.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mathops.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.h(3,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  internal.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  info.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  huffenc.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\huffenc.c(3,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  huffdec.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\huffdec.c(20,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  fragment.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  fdct.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  enquant.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  encode.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  encinfo.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  encfrag.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  encapiwrapper.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\apiwrapper.h(20,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  dequant.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\dequant.c(20,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  decinfo.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoradec.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  decapiwrapper.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\apiwrapper.h(20,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  cpu.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\codec.h(64,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  bitpack.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(41,62): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(61,37): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(81,41): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(100,37): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(110,26): warning C4244: return: преобразование "__int64" в "long", возможна потеря данных
+  apiwrapper.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\apiwrapper.h(20,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  analyze.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\include\theora\theoraenc.h(24,11): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  Создание кода...

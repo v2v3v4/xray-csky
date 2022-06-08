@@ -1,0 +1,23 @@
+﻿cl : командная строка warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  vorbisfile.c
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(71,41): warning C4267: инициализация: преобразование из "size_t" в "long"; возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(258,30): warning C4244: функция: преобразование "ogg_int64_t" в "long", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(272,15): warning C4244: =: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(536,21): warning C4244: return: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(562,21): warning C4244: return: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(566,19): warning C4244: return: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(576,19): warning C4244: return: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(638,19): warning C4244: return: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(868,18): warning C4244: функция: преобразование "ogg_int64_t" в "long", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1007,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1104,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1105,11): warning C4244: return: преобразование "double" в "long", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1109,13): warning C4244: return: преобразование "double" в "long", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1137,51): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1653,31): warning C4244: =: преобразование "ogg_int64_t" в "long", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1689,33): warning C4244: инициализация: преобразование "double" в "ogg_int64_t", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(1719,33): warning C4244: инициализация: преобразование "double" в "ogg_int64_t", возможна потеря данных
+D:\xrBase\SDK\sources\libvorbis-1.2.3\lib\vorbisfile.c(2052,18): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1543,5): warning MSB8012: TargetPath(D:\xrBase\SDK\sources\libvorbis-1.2.3\win32\VS2017\x64\Release_SSE2\libvorbisfile.lib) не соответствует значению свойства выходного файла (D:\xrBase\SDK\sources\libvorbis-1.2.3\win32\VS2017\x64\Release_SSE2\libvorbisfile_static.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetName(libvorbisfile) не соответствует значению свойства выходного файла (libvorbisfile_static) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  libvorbisfile_static.vcxproj -> D:\xrBase\SDK\sources\libvorbis-1.2.3\win32\VS2017\x64\Release_SSE2\libvorbisfile.lib

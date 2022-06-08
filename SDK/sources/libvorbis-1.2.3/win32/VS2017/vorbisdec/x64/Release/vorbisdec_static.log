@@ -1,0 +1,2 @@
+﻿  decoder_example.c
+D:\xrBase\SDK\sources\libvorbis-1.2.3\include\vorbis\codec.h(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,

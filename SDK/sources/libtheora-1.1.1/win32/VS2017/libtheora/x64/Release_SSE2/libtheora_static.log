@@ -1,0 +1,84 @@
+﻿  analyze.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\analyze.c(564,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\analyze.c(1537,23): warning C4456: объявление "mask" скрывает предыдущее локальное объявление
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\analyze.c(1504,27): message : см. объявление "mask"
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\analyze.c(1550,28): warning C4018: >: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\analyze.c(1589,30): warning C4018: >: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\analyze.c(1729,32): warning C4132: OC_MV_ZERO: для константного объекта требуется инициализация
+  apiwrapper.c
+  bitpack.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(41,62): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(61,37): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(81,41): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\bitpack.c(100,37): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  cpu.c
+  decapiwrapper.c
+  decinfo.c
+  dequant.c
+  encapiwrapper.c
+  encfrag.c
+  encinfo.c
+  encode.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(577,38): warning C4389: !=: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(973,26): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(973,47): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(982,26): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(982,47): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(1323,19): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(1433,14): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(1442,16): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(1444,30): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(1451,16): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\encode.c(1453,30): warning C4018: <: несоответствие типов со знаком и без знака
+  enquant.c
+  fdct.c
+  fragment.c
+  huffdec.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\huffdec.c(185,55): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\huffdec.c(389,22): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+  huffenc.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\huffenc.c(865,39): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  info.c
+  internal.c
+  mathops.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(180,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(188,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(196,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(197,42): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(221,45): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(227,29): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(227,35): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(257,15): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(258,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(265,15): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(266,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(273,15): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(274,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(281,15): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(282,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(289,15): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(290,17): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mathops.c(293,13): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  mcenc.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\mcenc.c(632,11): warning C4018: <: несоответствие типов со знаком и без знака
+  Компиляция...
+  rate.c
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\rate.c(267,4): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\rate.c(364,6): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\rate.c(383,15): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\rate.c(488,38): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\rate.c(1073,1): warning C4018: <: несоответствие типов со знаком и без знака
+D:\xrBase\SDK\sources\libtheora-1.1.1\lib\rate.c(1108,1): warning C4018: <: несоответствие типов со знаком и без знака
+  state.c
+  tokenize.c
+  mmxencfrag.c
+  mmxfdct.c
+  mmxfrag.c
+  mmxidct.c
+  mmxstate.c
+  x86enc.c
+  x86state.c
+  decode.c
+  idct.c
+  quant.c
+  libtheora_static.vcxproj -> D:\xrBase\SDK\sources\libtheora-1.1.1\win32\VS2017\x64\Release_SSE2\libtheora_static.lib

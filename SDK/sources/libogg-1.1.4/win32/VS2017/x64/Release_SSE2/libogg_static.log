@@ -1,0 +1,8 @@
+﻿cl : командная строка warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  bitwise.c
+  framing.c
+D:\xrBase\SDK\sources\libogg-1.1.4\src\framing.c(669,24): warning C4456: объявление "page" скрывает предыдущее локальное объявление
+D:\xrBase\SDK\sources\libogg-1.1.4\src\framing.c(614,18): message : см. объявление "page"
+D:\xrBase\SDK\sources\libogg-1.1.4\src\framing.c(670,15): warning C4456: объявление "bytes" скрывает предыдущее локальное объявление
+D:\xrBase\SDK\sources\libogg-1.1.4\src\framing.c(616,8): message : см. объявление "bytes"
+  libogg_static.vcxproj -> D:\xrBase\SDK\sources\libogg-1.1.4\win32\VS2017\x64\Release_SSE2\libogg_static.lib

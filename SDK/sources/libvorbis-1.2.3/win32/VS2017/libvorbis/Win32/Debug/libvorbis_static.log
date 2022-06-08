@@ -1,0 +1,46 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  window.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\os.h(25,10): fatal error C1083: Не удается открыть файл включение: ogg/os_types.h: No such file or directory,
+  vorbisenc.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\include\vorbis\codec.h(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  synthesis.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\synthesis.c(19,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  smallft.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\include\vorbis\codec.h(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  sharedbook.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\sharedbook.c(21,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  res0.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\res0.c(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  registry.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\include\vorbis\codec.h(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  psy.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\include\vorbis\codec.h(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mdct.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\include\vorbis\codec.h(26,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  mapping0.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\mapping0.c(22,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  lsp.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\os.h(25,10): fatal error C1083: Не удается открыть файл включение: ogg/os_types.h: No such file or directory,
+  lpc.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\os.h(25,10): fatal error C1083: Не удается открыть файл включение: ogg/os_types.h: No such file or directory,
+  lookup.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\os.h(25,10): fatal error C1083: Не удается открыть файл включение: ogg/os_types.h: No such file or directory,
+  info.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\info.c(24,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  floor1.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\floor1.c(21,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  floor0.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\floor0.c(21,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  envelope.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\envelope.c(22,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  codebook.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\codebook.c(21,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  block.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\block.c(24,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  bitrate.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\bitrate.c(21,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  analysis.c
+D:\xray\CSKY\SDK\sources\libvorbis-1.2.3\lib\analysis.c(21,10): fatal error C1083: Не удается открыть файл включение: ogg/ogg.h: No such file or directory,
+  Создание кода...

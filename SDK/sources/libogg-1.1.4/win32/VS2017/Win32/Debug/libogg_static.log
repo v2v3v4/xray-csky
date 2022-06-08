@@ -1,0 +1,9 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  framing.c
+D:\xray\CSKY\SDK\sources\libogg-1.1.4\src\framing.c(669,24): warning C4456: объявление "page" скрывает предыдущее локальное объявление
+D:\xray\CSKY\SDK\sources\libogg-1.1.4\src\framing.c(614,18): message : см. объявление "page"
+D:\xray\CSKY\SDK\sources\libogg-1.1.4\src\framing.c(670,15): warning C4456: объявление "bytes" скрывает предыдущее локальное объявление
+D:\xray\CSKY\SDK\sources\libogg-1.1.4\src\framing.c(616,8): message : см. объявление "bytes"
+  bitwise.c
+  Создание кода...
+  libogg_static.vcxproj -> D:\xray\CSKY\engine\Win32\Debug\libogg_static.lib
